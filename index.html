@@ -1,19 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="es">
 <head>
-<meta http-equiv="Scouts" content="text/html; charset=utf-8" />
-<title>Scouts</title>
+<meta name="Scouts" content="Informacion del Escultismo"; charset="utf-8" />
+<title>El Escultismo</title>
 <style type="text/css">
-body,td,th {
+
+body {
+	background: rgb(190, 236, 217);
 	font-size: 20px;
 	font-family:Tahoma, Geneva, sans-serif;
 	color: #000;
 }
-body {
-	background: rgb(190, 236, 217);//por si profe pide un color
-	background-image: url(fondo.jpeg); //fondo de pantalla
-	background-repeat: repeat;
-}
+
 a:link {
 	color: #60C;
 }
@@ -26,21 +24,38 @@ a:hover {
 a:active {
 	color: #69F;
 }
+
 h1 {
 	font-size: 40px;
 	color: #009;
 	text-align:center;
 	text-shadow: 2px 2px 2px #36C;
 }
+
 h2 {
 	font-size: 18px;
 	text-align:center;
 }
+
+h3{
+	font-size:16px;
+	text-decoration:underline;
+	font-style:italic;
+}
+
 p{text-align:justify}
+
 .linkInfo {
 	text-decoration:none;
 	font-family:Arial, Helvetica, sans-serif
 }
+
+.ley {
+	text-align:center;
+	background:#CCC;
+	font-style:italic;	
+}
+
 #divQueEs {
 	position: absolute;
 	left: 70px;
@@ -63,20 +78,22 @@ p{text-align:justify}
 
 #divTitulo {
 	position: absolute;
-	left: 443px;
-	top: 11px;
+	left: 464px;
+	top: 17px;
 	width: 366px;
-	height: 49px;
+	height: 90px;
 	z-index: 3;
 }
+
 #divEnUruguay {
 	position: absolute;
 	left: 62px;
 	top: 418px;
-	width: 1187px;
+	width: 1255px;
 	height: 251px;
 	z-index: 4;
 }
+
 #divInfoScout {
 	position: absolute;
 	left: 237px;
@@ -86,6 +103,7 @@ p{text-align:justify}
 	z-index: 5;
 	font-style: italic;
 }
+
 #divInfoHistoria {
 	position: absolute;
 	left: 1074px;
@@ -94,23 +112,24 @@ p{text-align:justify}
 	height: 39px;
 	z-index: 6;
 }
+
 #divInfoUruguay {
 	position: absolute;
-	left: 1091px;
-	top: 635px;
+	left: 1151px;
+	top: 619px;
 	width: 167px;
 	height: 34px;
 	z-index: 7;
 }
+
 #divQueHacemos {
 	position: absolute;
 	left: 54px;
 	top: 822px;
-	width: 1191px;
+	width: 1256px;
 	height: 152px;
 	z-index: 8;
 }
-
 
 #divFlor {
 	position: absolute;
@@ -120,15 +139,55 @@ p{text-align:justify}
 	height: 237px;
 	z-index: 9;
 }
+
 #divBanner {
 	position: absolute;
-	left: 63px;
-	top: 672px;
-	width: 1180px;
+	left: 30px;
+	top: 676px;
+	width: 1294px;
 	height: 145px;
 	z-index: 10;
 }
+
+#divLeyPromesa {
+	position: absolute;
+	left: 55px;
+	top: 970px;
+	width: 1253px;
+	height: 143px;
+	z-index: 11;
+}
+
+#divLey {
+	position: absolute;
+	left: 548px;
+	top: 1274px;
+	width: 301px;
+	height: 221px;
+	z-index: 12;
+}
+
+#divSaludo {
+	position: absolute;
+	left: 783px;
+	top: 1342px;
+	width: 529px;
+	height: 297px;
+	z-index: 12;
+}
+
+#divFinal {
+	position: absolute;
+	left: 49px;
+	top: 1658px;
+	width: 1258px;
+	height: 136px;
+	z-index: 13;
+	visibility: visible;
+	background-color: #E1E1E1;
+}
 </style>
+
 <script type="text/javascript">
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -152,52 +211,94 @@ function MM_swapImage() { //v3.0
    if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
 }
 </script>
+
 </head>
 
-<body link="#000080" vlink="#800000" dir="ltr" lang="es-UY" onload="MM_preloadImages('LogoInfo.png')">
+<body onload="MM_preloadImages('SaludoInfo.png')">
+
 <div id="divTitulo">
   <h1>EL ESCULTISMO</h1>
-</div>
+</div>	
+
+<div id="divFlor"><a href="https://www.scoutssanantonio.com/qui%C3%A9nes-somos/el-escultismo/los-s%C3%ADmbolos-scout/#:~:text=Significado%20scout%20de%20la%20Insignia%3A&amp;text=La%20l%C3%ADnea%20que%20divide%20el,que%20debe%20seguir%20el%20scout." onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Emblema Scout','','LogoInfo.png',1)" target="_blank"><img src="Logo.png" width="226" height="237" id="Emblema Scout" /></a></div>
+
 <div id="divQueEs">
   <h2>¿Qué es?</h2>
   <p> Es un movimiento  que busca educar a 	niños,niñas y adolescentes, en base en valores y juegos al aire libre como método de enseñanza no formal, que actualmente está presente en 165 países y territorios, con aproximadamente 40.000.000 de miembros en todo el mundo, agrupados en distintas organizaciones. </p>
 </div>
+
 <div id="divInfoScout">
   <table width="212" border="1" cellpadding="1">
     <tr>
-      <th bgcolor="#CCFFFF" scope="col"><a href="https://www.scout.org/es" target="_blank" class="linkInfo">más información</a></th>
+      <th bgcolor="#CCFFFF"><a href="https://www.scout.org/es" target="_blank" class="linkInfo">más información</a></th>
     </tr>
   </table>
 </div>
+
 <div id="divComoSurgio">
   <h2>¿Cómo surgió?</h2>
   <p>En 1907 <a href="https://www.scout.org/es/node/9694" target="new">Baden-Powell</a> llevó a cabo un campamento  experimental en la isla de Brownsea: que sería, el principio de esta magia. Participaron 20 muchachos separados en 4 patrullas: <a class="patrullas">Cuervos, Loros, Toros y Chorlitos</a>. Baden-Powell, escribió un libro donde recopiló experiencias y anécdotas relacionadas con esta práctica, lo llamó: “Escultismo para muchachos”.</p>
 </div>
+
 <div id="divInfoHistoria">
 <table width="200" border="1" cellpadding="1">
     <tr>
-      <th bgcolor="#CCFFFF" scope="col"><a href="https://www.scout.org/es/node/9691" target="_blank" class="linkInfo">más información</a></th>
+      <th bgcolor="#CCFFFF"><a href="https://www.scout.org/es/node/9691" target="_blank" class="linkInfo">más información</a></th>
     </tr>
   </table>
 </div>
+
 <div id="divEnUruguay"> 
   <h2>Scouts en Uruguay</h2>
   <p>
-  El escultismo en el Uruguay es practicado por alrededor de 4.500 jóvenes nucleados en dos organizaciones mayoritarias: el Movimiento Scout del Uruguay (<a href="https://msu.edu.uy/"target="new">MSU</a>), afiliado a la <a href="https://www.scout.org/" target="new">OMMS</a>(Organización Mundial del  Movimiento Scout) y Scouts de Uruguay (<a href="https://msu.edu.uy/"target="new">SDU</a>), afiliada a <a href="https://www.scout.org/" target="new">WOIS</a>(Organización Mundial de Scouts Independientes).</p>
+  El escultismo en el Uruguay es practicado por alrededor de 4.500 jóvenes nucleados en dos organizaciones mayoritarias: el Movimiento Scout del Uruguay (<a href="https://msu.edu.uy/"target="new">MSU</a>), afiliado a la <a href="https://www.scout.org/" target="new">OMMS</a>(Organización Mundial del  Movimiento Scout) y Scouts de Uruguay (<a href="https://scouts.org.uy/"target="new">SDU</a>), afiliada a <a href="https://www.scout.org/" target="new">WOIS</a>(Organización Mundial de Scouts Independientes).</p>
   <p>También existen otras agrupaciones independientes como el Grupo Scout Niño Chasque, el Ereván 50,el Grupo Scout 18 de julio, el Grupo Scout Vantraló, entre otras.</p>
 </div>
+
 <div id="divInfoUruguay">
 <table width="167" border="1" cellpadding="1">
     <tr>
-      <th bgcolor="#CCFFFF" scope="col"><a href="https://es.wikipedia.org/wiki/Escultismo_en_Uruguay" target="_blank" class="linkInfo">más historia</a></th>
+      <th bgcolor="#CCFFFF"><a href="https://es.wikipedia.org/wiki/Escultismo_en_Uruguay" target="_blank" class="linkInfo">más historia</a></th>
     </tr>
   </table>
 </div>
+
+<div id="divBanner"><img src="Banner.jpg"></div>
+
 <div id="divQueHacemos">
   <h2>¿Qué hacemos?</h2>
-  <p>Nuestra misión principal es dejar el mundo mejor que como lo encontramos, nos basamos en la Ley y la Promesa Scout. En este camino aprendemos muchas cosas: amarres, fuegos, primeros auxilios, nudos, canciones, juegos, danzas,y, sobre todo, a ser mejor personas.</p>
+  <p>Nuestra misión principal es dejar el mundo mejor que como lo encontramos, nos basamos en la Ley y la Promesa Scout. En este camino aprendemos muchas cosas: amarres, fuegos, primeros auxilios, nudos, canciones, juegos, danzas,y, sobre todo, a ser mejores personas.</p>
 </div>
-<div id="divFlor"><a href="https://www.scoutssanantonio.com/qui%C3%A9nes-somos/el-escultismo/los-s%C3%ADmbolos-scout/#:~:text=Significado%20scout%20de%20la%20Insignia%3A&amp;text=La%20l%C3%ADnea%20que%20divide%20el,que%20debe%20seguir%20el%20scout." onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Emblema Scout','','LogoInfo.png',1)" target="_blank"><img src="Logo.png" width="226" height="237" id="Emblema Scout" /></a></div>
-<div id="divBanner">ACA VA UN BANNER</div>
+
+<div id="divLeyPromesa">
+<h2>Promesa Scout</h2>
+  <p class="ley">"Por mi honor prometo, hacer cuanto de mi dependa, para cumplir mis deberes, para<br> 
+  con dios y la patria, ayudar al prójimo en todas circunstancias y cumplir fielmente la Ley Scout."</p>
+  <p>La Promesa scout es un compromiso personal que debe asumirse libre y voluntariamente. Representa el momento en que el scout acepta  ser miembro del Movimiento. Se trata de un compromiso único donde quien hace la promesa se compromete con los valores y principios del Movimiento Scout. Originalmente diseñada por Baden-Powell, y aunque los textos pueden variar a lo largo de las diferentes organizaciones del mundo, el espíritu de la misma se ha mantenido durante más de 100 años.</p>
+ <h2> Ley Scout </h2>
+ <p> Es el conjunto de valores en los que educa el Escultismo. Fue originalmente diseñada por  Baden-Powell como herramienta educativa que representa el núcleo del Método Scout y, alrededor de ella pivotan los demás elementos pedagógicos del Escultismo.</p>
+ <h3> El scout...</h3>
+ <ol>
+ <li>Es digno de confianza.</li>
+ <li>Es leal.</li>
+ <li>Sirve al prójimo y a la comunidad sin esperar recompensa.</li>
+ <li>Es hermano de todo scout y promueve la fraternidad entre las personas.</li>
+ <li>Es justo y constructor de la justicia.</li>
+ <li>Protege y ama la vida.</li>
+ <li>Sabe obedecer en forma libre y responsable.</li>
+ <li>Enfrenta sus dificultades con alegría y coraje.</li>
+ <li>Es trabajador y respeta el bien común.</li>
+ <li>Es puro en pensamientos, palabras y acciones.</li>
+</ol>
+</div>
+
+<div id="divSaludo">
+<a href="https://www.youtube.com/watch?v=e6qtWBkvIJ0" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Saludo','','SaludoInfo.png',1)" target="new"><img src="saludo.png" width="550" height="287" id="Saludo" /></a>
+</div>
+
+<div id="divFinal">
+  <p>Esto es un poco de lo que es ser scout, además vivimos experiencias inolvidables y nos nutrimos unos a otros, si te interesó el tema te invito a informarte, viendo <a href="https://www.youtube.com/c/UnScout/" target="new">videos</a> de youtube, leyendo <a href="https://msu.edu.uy/biblioteca/wp-content/uploads/2017/11/Escultismo-para-Muchachos.pdf" target="new">libros</a> de Scouts y sobre todo, <a href="https://scouts.org.uy/quiero-ser-scout/" target="new">unirte</a> a esta loca aventura que es un viaje de ida, porque una vez scout, siempre scout.</p>
+</div>
+
 </body>
 </html>
